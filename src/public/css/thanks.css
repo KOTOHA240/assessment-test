@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inika', serif;
+    background-color: #fff;
+}
+
+.thanks__content {
+    position: relative;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.thanks__background {
+    position: absolute;
+    top: 150px;
+    /* 背面文字の配置調整 */
+    left: 66px;
+    font-size: 280px;
+    color: rgba(139, 121, 105, 0.05);
+    /* #8B7969の5% */
+    font-weight: 400;
+    z-index: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.thanks__heading h2 {
+    font-size: 30px;
+    color: #8B7969;
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.thanks__button {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-home {
+    background-color: #82756A;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+    height: 46px;
+    min-width: 140px;
+    line-height: 26px;
+}

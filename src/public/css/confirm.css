@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap');
+
+.confirm__content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 150px auto 0;
+    text-align: center;
+    font-family: 'Inika', serif;
+    color: #8B7969;
+}
+
+.header__logo {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.confirm-table {
+    margin: 50px auto;
+    border: 1px solid #E0DFDE;
+    width: 972px;
+}
+
+.confirm-table__inner {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.confirm-table__row {
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.confirm-table__header {
+    background-color: #8B7969;
+    color: white;
+    text-align: left;
+    padding: 12px;
+    width: 30%;
+    font-size: 16px;
+}
+
+.confirm-table__text {
+    background-color: #fff;
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+    color: #333;
+}
+
+.form__button {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.form__button-submit {
+    background-color: #82756A;
+    color: white;
+    font-size: 16px;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    height: 42px;
+    width: 120px;
+}
+
+.form__button-edit {
+    color: #8B7969;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Inika', serif;
+    line-height: 1;
+}

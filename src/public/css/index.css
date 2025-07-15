@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap');
+
+body {
+    font-family: 'Inika', serif;
+    background-color: #fff;
+    color: #8B7969;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.page-title-area {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.page-title-area .header__logo {
+    display: none;
+}
+
+.page-title {
+    font-size: 28px;
+    color: #8B7969;
+    margin: 0;
+}
+
+.contact-form__content {
+    width: 100%;
+    max-width: 972px;
+    margin: 40px auto;
+    border: 1px solid #8B7969;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form__group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.form__group-title {
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.form__label--item {
+    margin-right: 10px;
+    color: #8B7969;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__group-content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.form__input--text input,
+.form__input--select select,
+.form__input--textarea textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: 100%;
+}
+
+.form__input--text,
+.form__input--select,
+.form__input--textarea {
+    flex: 1;
+    min-width: 0;
+}
+
+.form__input--text {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input--text input::placeholder,
+.form__input--textarea textarea::placeholder {
+    color: #ccc;
+}
+
+.form__input--text {
+    display: flex;
+    flex-direction: column;
+}
+
+.gender-radio-group {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.gender-radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.gender-radio-group input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.name-flex {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.name-flex .form__input--text input {
+    width: 100%;
+}
+
+.tel-flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.tel-flex input {
+    width: 100px !important;
+    text-align: center;
+}
+
+.tel-separator {
+    line-height: 38px;
+    color: #8B7969;
+    margin: 0 8px;
+}
+
+.form__input--select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 30px;
+    background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%238B7969' d='M2 0L0 2h4L2 0zM0 3l2 2l2-2H0z'/%3E%3C/svg%3E") no-repeat right 10px center;
+    background-size: 12px;
+}
+
+.form__input--textarea textarea {
+    width: 100% !important;
+    height: 150px;
+    resize: vertical;
+}
+
+.form__error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.form__button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form__button-submit {
+    background-color: #82756A;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    height: 42px;
+    min-width: 140px;
+}
