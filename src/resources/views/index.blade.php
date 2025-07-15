@@ -13,7 +13,7 @@
 @section('content')
 
 <div class="contact-form__content">
-    <form class="form" action="/contacts/confirm" method="post">
+    <form class="form" action="{{ route('contacts.confirm') }}" method="post">
         @csrf
         <div class="form__group">
             <div class="form__group-title">

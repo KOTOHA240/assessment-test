@@ -16,7 +16,7 @@ use App\Http\Controllers\Auth\LoginController;
 |
 */
 
-Route::get('/', [ContactController::class, 'index'])->name('index');
+Route::get('/', [ContactController::class, 'index'])->name('contact.index');
 Route::post('/contacts/confirm', [ContactController::class, 'confirm'])->name('contacts.confirm');
 Route::post('/contacts', [ContactController::class, 'store']);
 Route::middleware(['auth'])->group(function () {

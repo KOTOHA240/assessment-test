@@ -100,7 +100,7 @@
             <button class="form__button-submit" type="submit">送信</button>
         </div>
         <div class="form__button">
-            <a class="form__button-edit" href="{{ route('index') }}">修正</a>
+            <a class="form__button-edit" href="{{ route('contact.index') }}">修正</a>
         </div>
     </form>
 </div>
